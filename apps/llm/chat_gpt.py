@@ -3,8 +3,8 @@ import openai
 import json
 # from dotenv import load_dotenv, find_dotenv
 
-openai.api_key  = "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"
-os.environ["https_proxy"] = "http://127.0.0.1:19180"
+openai.api_key  = "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"
+# os.environ["https_proxy"] = "http://127.0.0.1:19180"
 
 #发生了如下错误“namespace must be ASCII”，因为输入的是中文，所以需要设置为utf-8
 os.environ["PYTHONIOENCODING"] = "utf-8"
